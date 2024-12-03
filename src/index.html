@@ -6,7 +6,60 @@
   <link href="./output.css" rel="stylesheet">
   <title>Document</title>
 </head>
-<body>
-  
+<body class="bg-grey-50">
+  <!-- Header -->
+   <header>
+    <div class="container mx-auto px-4 h-24 flex items-center">
+      <div class="font-black text-blue-500">
+        LOGO
+      </div>
+
+      <div class=" ml-auto">
+        <ul class="flex space-x-4">
+          <li class="">
+            <a href="" class="text-sm text-gray-500 hover:text-gray-800 hover:underline">Como reservar</a>
+          </li>
+
+          <li><a href="" class="text-sm text-gray-500 hover:text-gray-800   hover:underline">Sobre nós</a></li>
+          <li>
+            <a href="" class="text-sm text-gray-500 hover:text-gray-800 hover:underline">Informações</a></li>
+          <li>
+            <a href="" class="text-sm text-gray-500 hover:text-gray-800 hover:underline">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+   </header>
+
+   <!-- banner -->
+    <section 
+    style="background: url('../imgs/resort-banner.webp'); height: 445px;">
+      <div class="container h-full mx-auto px-4 h-48 flex flex-col items-center justify-center text-3xl backdrop-brightness-50">
+
+        <div class="text-center text-white">
+          <h1 class="text-4xl">Onde você quer ir ?</h1>
+          <p>Escolha o estado e cidade para achar os melhores resorts</p>
+        </div>
+
+        <form action="" class="text-sm space-x-3 mt-5">
+          <select name="" id="" class="bg-gray-200 px-3 py-2 border border-gray-500 rounded">
+            <option value="">Escolha o estado</option>
+          </select>
+          <select name="" id="" class="bg-gray-200 px-3 py-2 border border-gray-500 rounded">
+            <option value="">Escolha a cidade</option>
+          </select>
+
+          <button class="inline-flex font-medium text-yellow-900 bg-yellow-500 px-3 py-2 rounded">Pesquisar
+
+            <svg 
+            class="w-5 h-5 ml-2"
+            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m15.75 15.75-2.489-2.489m0 0a3.375 3.375 0 1 0-4.773-4.773 3.375 3.375 0 0 0 4.774 4.774ZM21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+    
+          </button>
+        </form>
+        
+      </div>
+    </section>
 </body>
 </html>
