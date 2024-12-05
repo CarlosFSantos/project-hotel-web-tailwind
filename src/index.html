@@ -34,7 +34,7 @@
     <section 
     class="h-96 bg-center bg-no-repeat bg-contain"
     style="background-image: url('../imgs/resort-banner.webp');">
-      <div class="container h-full mx-auto px-4 h-48 flex flex-col items-center justify-center text-3xl backdrop-brightness-50">
+      <div class="container h-full mx-auto px-4 flex flex-col items-center justify-center text-3xl backdrop-brightness-50">
 
         <div class="text-center text-white">
           <h1 class="text-4xl">Onde você quer ir ?</h1>
@@ -69,14 +69,14 @@
         <div class="flex items-center">
           <div>
             <div class="text-sm text-gray-400 font-semibold">
-              RESORT EM DESTAQUE
+              <h2>RESORT EM DESTAQUE</h2>
             </div>
 
             <div class="text-xl">
-              Ecoresort Praia do Forte Bahia
+              <h3>Ecoresort Praia do Forte Bahia</h3>
             </div>
 
-            <div class="text-sm text-gray-400 font-semibold mt-2">Hotel de qualidade 5 estrelas</div>
+            <div class="text-sm text-gray-400 font-semibold mt-2"><p>Hotel de qualidade 5 estrelas</p></div>
 
             <div class="text-sm text-gray-400 font-semibold mt-4">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, voluptatum quis dolore harum quaerat illo veritatis voluptate, velit dolores iure modi tenetur officiis dolorum quod dicta quo temporibus quam veniam.</p>
@@ -84,7 +84,7 @@
           </div>
 
           <div>
-            <img src="../imgs/202434694.jpg" alt="Resort-img" width="550px">
+            <img class="rounded-lg" src="../imgs/202434694.jpg" alt="Resort-img" width="550px">
           </div>
         </div>
 
@@ -97,5 +97,47 @@
         </a>
       </div>
      </section>
+
+     <!-- More Hotels -->
+
+     <section>
+      <div class="container mx-auto px-4 py-2 text-semibold text-gray-800 text-2xl text-center">
+        <h2>Conheça mais resorts</h2>
+
+        <div class="grid grid-cols-4 grid-rows-2 gap-5 gap-y-3 pt-10">
+
+          <div class="col-span-2 row-span-2">
+            <figure class="relative">
+              <img  class="overflow-hidden rounded-lg w-full h-full   object-cover" src="../imgs/beach-park-resort.jpg" alt="hotel-1">
+              <figcaption class="absolute bottom-0 left-0 w-full text-white bg-slate-700/[0.7] rounded-md text-lg text-left pl-3">Beach Park Resort</figcaption>
+            </figure>
+          </div>
+
+          <div class="col-span-2">
+              <figure class="relative h-72"><img class="overflow-hidden rounded-lg w-full h-full object-cover" src="../imgs/blue-tree-thermas-resort.jpg" alt="hotel-2">
+              <figcaption class="absolute bottom-0 left-0 w-full text-white bg-slate-700/[0.7] rounded-md text-lg text-left pl-3">Blue Tree Thermas</figcaption>
+            </figure>
+          </div>
+
+          <div>
+            <figure class="relative">
+              <img class="overflow-hidden rounded-lg w-full h-64 object-cover" src="../imgs/grand-oco-maragofi.jpg" alt="hotel-3">
+              <figcaption class="absolute bottom-0 left-0 w-full text-white bg-slate-700/[0.7] rounded-md text-lg text-left pl-3">Grand Oco Maragogi</figcaption>
+            </figure>
+          </div>
+
+          <div>
+            <figure class="relative">
+              <img class="overflow-hidden rounded-lg w-full h-64 object-cover" src="../imgs/makai-resort.jpg" alt="hotel-4">
+              <figcaption class="absolute bottom-0 left-0 w-full text-white bg-slate-700/[0.7] rounded-md text-lg text-left pl-3">Makai Resort</figcaption>
+            </figure>
+          </div>
+          
+        </div>
+      </div>
+
+      
+     </section>
+     
 </body>
 </html>
